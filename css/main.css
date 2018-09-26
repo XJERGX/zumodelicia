@@ -1,0 +1,145 @@
+body {
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+}
+.hero {
+    width: 100%;
+    height: 768px;
+    background: url( ../img/Web\ 1366\ –\ 2.jpg ) no-repeat;
+    background-size: cover;
+}
+.bg-warning {
+    background-color: #FF8221 !important;
+
+}
+.fixed-top {
+    transition: all .5s ease;
+
+}
+.hero .btn-outline-secondary {
+    
+    border-radius: 50px !important;
+    border: 2px solid #ffffff !important;
+    color: #ffffff !important;
+    font-weight: 500;
+    padding: .5rem 2rem;
+
+}
+.hero .btn-outline-secondary:hover {
+    background-color: #ffffff !important;
+    color: #000000 !important;
+}
+.nav-link {
+    color: #ffffff !important;
+    font-size: 1rem;
+    font-weight: 500;
+    transition: all .1s ease-in;
+}
+.nav-link:hover {
+    padding: 5px 0 1px 0;
+    border-bottom: 1px solid rgba(255, 129, 33, 0) !important;
+   
+}
+.nav-link.active {
+    background-color: #ffffff !important;
+    border-radius: 5px;
+    color: #FF8221 !important;
+
+}
+.iconos .text-warning {
+    color: #FF8221 !important;
+}
+.info {
+    margin-top: 10rem;
+    transition: all 2s ease-in;
+    transition-duration: 3s;
+}
+.info h1 {
+    font-size: 54px;
+}
+.info h3 {
+    font-size: 24px;
+}
+
+@media ( min-width: 992px )
+{
+    .info {
+        margin-top: 16rem;
+        transition: all 2s ease-in;
+        transition-duration: 3s;
+    }
+    .info h1 {
+        font-size: 54px;
+    }
+    .info h3 {
+        font-size: 24px;
+    }
+}
+
+@media ( max-width: 1000px )
+{
+    .hero .navbar {
+        background-color: #FF8221 !important;
+    }
+    .hero {
+        width: 100%;
+        height: 650px;
+        background: url( ../img/Web\ 1366\ –\ 2.jpg ) no-repeat;
+        background-size: cover;
+    }
+}
+
+/* Nosotros */
+.nosotros {
+    margin: 5rem 0;
+}
+.nosotros h2 {
+    position: relative;
+    border-bottom: 2px solid #FF8221;
+}
+.nosotros p {
+    font-weight: 450;
+    line-height: 2rem;
+    text-align: justify;
+}
+.nosotros .foto-ns {
+    width: 100%;
+    height: 260px;
+}
+
+.nuestrosProductos h2 {
+    position: relative;
+    border-bottom: 2px solid #FF8221;
+}
+
+.section {
+    background: url( ../img/Group\ 32.jpg ) no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 240px;
+}
+.contactenos {
+    margin-top: 8rem;
+}
+.contactenos h2 {
+    position: relative;
+    border-bottom: 2px solid #FF8221;
+}
+
+.form-control {
+    box-shadow: none !important;
+    
+}
+.form-control:focus {
+    border: 1px solid rgb(129, 129, 128) !important;
+}
+
+
+.footer .navbar .navbar-brand {
+    font-size: .8rem;
+}
+.footer .navbar .nav-link {
+    font-size: .8rem;
+}
+
